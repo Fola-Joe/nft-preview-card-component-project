@@ -87,12 +87,42 @@ main {
 }
 
 .img:hover {
-    /* filter: opacity(0.5); */
+    opacity: 0.5; 
     cursor: pointer;
+}
+
+.img .overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    /* transition: .5s ease;
     background-color: hsl(178, 100%, 50%);
 }
 
-/* .img .view {
+.img:hover .overlay {
+    opacity: 1;
+} 
+ 
+.view {
+    /* font-size: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*.view {
     position: relative;
     top: -11.5rem;
     left: 8rem;
@@ -178,8 +208,8 @@ main {
     cursor: pointer;
 }
 
-.view {
-    display: none;
-}
+/* .view {
+    display: ;
+} */
 
 
