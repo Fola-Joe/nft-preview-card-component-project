@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* My code */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ body{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.img {
+    max-width: 250px;
+    max-height: 250px;
+    padding: 15px;
+}
+
+.img .nft {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.img:hover {
+    /* filter: opacity(0.5); */
+    cursor: pointer;
+    background-color: hsl(178, 100%, 50%);
+}
+
+/* .img .view {
+    position: relative;
+    top: -11.5rem;
+    left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+} */
+
+.nft-body {
+    padding: 0 15px 15px 15px;
+}
+  
+.nft-body h1 {
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.nft-body h1:hover {
+    color: hsl(178, 100%, 50%);
+    transition-delay: 200ms;
+    cursor: pointer;
+}
+
+.nft-body p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.price-info {
+    display: flex; 
+    gap: 3rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1.5px solid hsl(215, 32%, 27%);
+}
+
+.eth {
+    max-height: 14px;
+}
+
+.price-info h2 {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    gap: 0.5rem;
+    color: hsl(178, 100%, 50%);
+}
+
+.price-info p {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+.user-info img {
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    width: 30px;
+}
+  
+.user-info p span {
+    color: #ffffff;
+}
+
+.user-info p span:hover {
+    color: hsl(178, 100%, 50%);
+    transition-delay: 200ms;
+    cursor: pointer;
+}
+
+.view {
+    display: none;
+}
+
+
