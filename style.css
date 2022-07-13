@@ -82,6 +82,11 @@ main {
     padding: 15px;
 }
 
+.img:hover {
+    background: hsl(178, 100%, 50%);
+    background-clip: padding-box;
+}
+
 .img .nft {
     border-radius: 10px;
     width: 100%;
@@ -94,9 +99,9 @@ main {
 
 .img .view {
     position: absolute;
-    top: 42%;
-    left: 42%;
-    max-height: 40px;
+    top: 43%;
+    left: 43%;
+    max-width: 35px;
     opacity: 0;
 }
 
