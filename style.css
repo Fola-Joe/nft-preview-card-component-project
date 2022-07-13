@@ -98,8 +98,6 @@ main {
     left: 42%;
     max-height: 40px;
     opacity: 0;
-    /* transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%) */
 }
 
 .img:hover .view {
