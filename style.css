@@ -83,8 +83,9 @@ main {
 }
 
 .img:hover {
-    background: hsl(178, 100%, 50%);
-    background-clip: padding-box;
+    background-color: hsl(178, 100%, 50%);
+    background-clip: content-box;
+    -moz-background-clip: content;
 }
 
 .img .nft {
