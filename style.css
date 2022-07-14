@@ -85,7 +85,6 @@ main {
 .img:hover {
     background-color: hsl(178, 100%, 50%);
     background-clip: content-box;
-    -moz-background-clip: content;
 }
 
 .img .nft {
@@ -108,7 +107,6 @@ main {
 
 .img:hover .view {
     opacity: 1;
-    transition-delay: 100ms;
 }
 
 .nft-body {
