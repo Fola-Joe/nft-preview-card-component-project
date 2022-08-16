@@ -58,15 +58,15 @@ table {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 
- body {
+body {
     font-family: "Outfit", sans-serif;
     background-color: hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    min-height: 95vh;
 }
 
 main {
